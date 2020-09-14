@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LerningLinq
 {
@@ -10,6 +6,9 @@ namespace LerningLinq
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(LambdaExpressions.GetNextNumber(6));
+
+            Console.ReadLine();
         }
     }
 }
